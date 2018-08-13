@@ -15,10 +15,14 @@ app.use(passport.initialize());
 
 const mysql = require('mysql');
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'charon',
-    database: 'coba_movietime_01'
+    // host: 'localhost',
+    // user: 'root',
+    // password: 'charon',
+    // database: 'coba_movietime_01'
+    host: 'mcldisu5ppkm29wf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: 'mfqe7pjw1yqnku1f',
+    password: 'qhtezq8xhki8p2v3',
+    database: 'ffgf4yfdlp7nly40'
 });
 db.connect();
 
